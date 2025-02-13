@@ -1,0 +1,54 @@
+# Configuration for the generated index page
+index:
+  # Favicon of the generated index page: file path or public url to favicon
+  # file
+  favicon: https://geotribu.fr/theme/assets/images/geotribu/logo_geotribu.png
+
+  # Title of the generated index page: string
+  title: Geotribu - Slides
+
+# Configuration for the slides
+slides:
+  # Charset of the slides: string
+  # (see https://revealjs.com/markdown/#external-markdown)
+  charset: utf-8
+
+  # Favicon of the slides: file path or public url to favicon file
+  favicon: https://geotribu.fr/theme/assets/images/geotribu/logo_geotribu.png
+
+  # Theme for syntax highlighting of code fragments on the slides: file path
+  # to CSS file, public url to CSS file, or one of the highlight.js built-in
+  # themes such as `monokai`, `obsidian`, `tokyo-night-dark`, `vs`, ...
+  # (see https://highlightjs.org/examples)
+  highlight_theme: vs
+
+  # Separator to determine notes of the slide: regexp
+  # (see https://revealjs.com/markdown/#external-markdown)
+  separator_notes: "^Notes?:"
+
+  # Separator to determine end current/begin new vertical slide: regexp
+  # (see https://revealjs.com/markdown/#external-markdown)
+  separator_vertical: ^\s*----\s*$
+
+  # Separator to determine end current/begin new slide: regexp
+  # (see https://revealjs.com/markdown/#external-markdown)
+  separator: ^\s*---\s*$
+
+  # Theme of the slides: file path to CSS file, public url to CSS file, or one
+  # of the reveal.js themes such as `black`, `white`, `league`, `solarized`,
+  # `dracula`, ... (see https://revealjs.com/themes/)
+  theme: serif
+
+# Options to be passed to reveal.js: options in yaml format, they will be
+# translated to JSON automatically (see https://revealjs.com/config/)
+revealjs:
+  height: 1080
+  width: 1920
+  transition: fade
+
+# Plugins or additional CSS/JavaScript files for the slides. These are given as
+# a list.
+plugins:
+  - name: RevealMermaid
+    extra_javascript:
+      - https://cdn.jsdelivr.net/npm/reveal.js-mermaid-plugin/plugin/mermaid/mermaid.min.js

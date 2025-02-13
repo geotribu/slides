@@ -1,0 +1,41 @@
+{
+    // Editor
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "editor.formatOnSave": true,
+    "editor.guides.bracketPairs": "active",
+    "files.encoding": "utf8",
+    // Markdown
+    "markdown.updateLinksOnFileMove.enabled": "prompt",
+    "markdown.updateLinksOnFileMove.enableForDirectories": true,
+    "markdown.validate.enabled": true,
+    "markdown.validate.fileLinks.markdownFragmentLinks": "warning",
+    "markdown.validate.fragmentLinks.enabled": "warning",
+    "[markdown]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "files.insertFinalNewline": true,
+        "files.trimTrailingWhitespace": false
+    },
+    // Python
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    // YAML
+    "[yaml]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.autoIndent": "keep",
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+        "editor.defaultColorDecorators": "auto",
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": true,
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.tabSize": 2
+    },
+    // Git
+    "git.ignoreLimitWarning": true
+}
