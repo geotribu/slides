@@ -49,11 +49,20 @@ Thanks, QField plugins framework :sunglasses: !
 
 ----
 
+### Let's find a name
+
+- ["qwirk"](https://mapstodon.space/@hareldan/113604933815924658) ? -> qIRC
+- Qt-inder : meet some geospatial people :sunglasses:
+
+-> "QChat": well, it's what it does
+
+----
+
 ### QChat Philosophy
 
-- Let's study existing open chat protocols (IRC, jabber, matrix... :crying_cat_face:)
+- Let's study existing open chat protocols (IRC, jabber, matrix... :crying_cat_face:)  
 -> Let's actually [K.I.S.S.](https://en.wikipedia.org/wiki/KISS_principle) :kissing_heart:
-- Let's make it open and accessible to anybody
+- Let's make it open and accessible to anybody  
 -> You have a QGIS installed -> You can chat :speech_balloon:
 
 ----
@@ -93,7 +102,7 @@ Thanks, QField plugins framework :sunglasses: !
 - Websockets dispatcher
 - No database: just _stateless_ websockets :kissing_heart:
 - Docker image on [DockerHub](https://hub.docker.com/r/gounux/gischat) and [GHCR](https://github.com/geotribu/gischat/pkgs/container/gischat)
-- Deployable on a server using a KISS :kiss: `compose` stack
+- Deployable on a server using a KISS :kiss: `compose` stack  
 -> 1 single service + a few env variables
 
 ----
