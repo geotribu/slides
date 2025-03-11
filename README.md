@@ -19,7 +19,7 @@ This project uses [MkSlides](https://github.com/MartenBE/mkslides/) to convert M
 
 Requirements:
 
-- Python >= 3.10
+- Python >= 3.12
 
 Install (typically on Ubuntu):
 
