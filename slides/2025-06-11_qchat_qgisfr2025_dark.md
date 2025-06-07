@@ -1,6 +1,6 @@
 ---
 date: 2025-06-11
-title: QChat, un tchat dans QGIS et QField
+title: QChat, un tchat dans QGIS et QField (dark theme)
 transition: slide
 theme: dark
 ---
