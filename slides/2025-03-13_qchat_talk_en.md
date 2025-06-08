@@ -2,7 +2,6 @@
 date: 2025-03-13
 title: Let's chat in QGIS with QChat!
 transition: slide
-theme: dark
 ---
 
 ## QChat
