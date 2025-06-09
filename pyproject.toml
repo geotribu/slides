@@ -1,18 +1,26 @@
 [build-system]
-requires = ["setuptools >= 70.0"]
+requires = ["setuptools >= 70.0", "setuptools-scm>=8"]
 build-backend = "setuptools.build_meta"
 
 [project]
-authors = [{ name = "Julien Moura", email = "geotribu+jm@gmail.com" }]
+authors = [{ name = "Julien Moura", email = "geotribu@gmail.com" }]
 description = "Slides produced by the Geotribu teams, powered by MkSlides"
-maintainers = [{ name = "Julien Moura", email = "geotribu+jm@gmail.com" }]
-dependencies = ["mkslides>=1,<1.1"]
-dynamic = ["version"]
+maintainers = [{ name = "Julien Moura", email = "geotribu@gmail.com" }]
+dependencies = [
+    "mkslides>=1,<1.1",
+    "pre-commit>=4.2.0,<5",
+    "requests>=2.32.4,<3",
+]
 name = "geotribu-slides"
 readme = "README.md"
 requires-python = ">=3.12,<4.0"
+dynamic = ["version"]
 
 [project.urls]
 Homepage = "https://geotribu.fr"
 Documentation = "https://readthedocs.org"
 Repository = "https://github.com/geotribu/slides.git"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["slides", "theme"]
