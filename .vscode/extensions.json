@@ -1,13 +1,16 @@
 {
     "recommendations": [
+        "bierner.emojisense",
+        "bierner.markdown-checkbox",
         "bierner.markdown-emoji",
         "bierner.markdown-mermaid",
+        "bierner.markdown-yaml-preamble",
         "davidanson.vscode-markdownlint",
         "eamodio.gitlens",
         "github.vscode-pull-request-github",
-        "mdickin.markdown-shortcuts",
         "ms-python.python",
         "ms-ceintl.vscode-language-pack-fr",
-        "redhat.vscode-yaml"
+        "redhat.vscode-yaml",
+        "tamasfe.even-better-toml"
     ]
 }
