@@ -53,8 +53,8 @@ Une occasion de prendre du recul et d’échanger sur le rôle de la documentati
 Au menu :
 
 1. Geotribu
-1. QGIS dans Geotribu
-1. Perspectives et prospectives pour les deux projets
+1. QGIS dans les yeux de Geotribu
+1. Perspectives et prospectives croisées
 
 ---
 
@@ -245,7 +245,9 @@ Notes:
 
 - ~10 de dépôts Git actifs
 - 9 500 commits sur le site principal, environ 13 000 en tout
-- quelques dizaines de forks
+- du Python, du Material for Mkdocs
+- de la CI/CD
+- des bots
 
 Notes:
 
@@ -262,10 +264,10 @@ Notes:
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div style="flex: 1; padding-right: 10px;">
     <ul>
-  <li>Une bien belle année 2024</li>
+  <li>Une année 2024 record</li>
   <li>Globalement une dynamique assez stable</li>
   <li>Un travail sur le référencement et le web sémantique</li>
-  <li>Pas très algos friendly : articles longs, </li>
+  <li>Pas très algos friendly : articles longs = % de lecture complète faible</li>
   <li>Énormément d'URLs et un historique qui grève les résultats (404, redirections...)</li>
 </ul>
   </div>
@@ -295,13 +297,13 @@ Notes:
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
 
-## QGIS dans Geotribu
+## QGIS dans les yeux de Geotribu
 
 ---
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
 
-## QGIS dans Geotribu
+## Une longue histoire
 
 - premier article dédié en novembre 2008 sur le workshop Quantum GIS
 - ~200 contenus directement liés à QGIS dont beaucoup sont des news
@@ -318,17 +320,13 @@ Notes:
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
 
----
-
-<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
-
 ## Que peut on en dire du projet QGIS
 
-- du sidekick au protagoniste ?
-- gratuit = forte adoption : certes mais les autres aussi.
-- modularité et facilité de développement de plugins (même si rappelez-vous : les plugins tuent encore des sessions QGIS. Soyez prudents sur la route du développement)
-- logiciel hégémonique dans l'écosystème open source : adios gvsig, ciao uDig, slurp SAGA...
-- logiciel "guichet unique" des principales solutions géospatiales : géocodage, GDAL, outils de géométrie, de topo, etc.
+- du sidekick au protagoniste <!-- .element: class="fragment" -->
+- gratuit = forte adoption : certes mais les autres aussi. <!-- .element: class="fragment" -->
+- modularité et facilité de développement de plugins (même si rappelez-vous : les plugins tuent encore des sessions QGIS. Soyez prudents sur la route du développement) <!-- .element: class="fragment" -->
+- logiciel hégémonique dans l'écosystème open source : adios gvsig, ciao uDig, slurp SAGA... <!-- .element: class="fragment" -->
+- logiciel "guichet unique" des principales solutions géospatiales : géocodage, GDAL, outils de géométrie, de topo, etc. <!-- .element: class="fragment" -->
 
 Notes:
 
@@ -388,19 +386,34 @@ Bien évoqué ce matin par le laboratoire LETG (vous savez le plugin pour le tra
 
 ## Et maintenant ?
 
+> Perspectives et prospectives
+
+![Géo boule de cristal](https://cdn.geotribu.fr/img/internal/icons-rdp-news/globe_boule_cristal_divination.jpg)
+
 ---
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
 
-## Concilier les publics de QGIS
+## Continuer de mûrir : sortir du garage
+
+- assumer son rôle de logiciel leader <!-- .element: class="fragment" -->
+- prendre le temps de consolider les retours des utilisateurs <!-- .element: class="fragment" -->
+- structurer l'évolution projet en s'inspirant d'autres projets d'importance confrontés aux enjeux de l'utilisation à l'échelle industrielle <!-- .element: class="fragment" -->
+
+---
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Concilier les publics
 
 - les dévs core
 - les dév de plugins
 - les contributeurs périphériques : documentation, traduction
 - les utilisateurs avancés et réguliers
 - les nouveaux venus
+- les autres
 
-> Le challenge permanent est de les concilier voire de les réconcilier
+> Le challenge est de les concilier voire de les réconcilier
 
 ---
 
@@ -408,8 +421,26 @@ Bien évoqué ce matin par le laboratoire LETG (vous savez le plugin pour le tra
 
 ## Rôle de Geotribu là-dedans
 
-- démystifier les dynamiqyes communautaires sous-jacentes au projet QGIS
-- s'appuyer sur QGIS pour parler des autres briques de l'écosystème libre
+- moins d'articles techniques ? <!-- .element: class="fragment" -->
+- démystifier les dynamiques communautaires sous-jacentes au projet QGIS <!-- .element: class="fragment" -->
+- valoriser les modes de financement  <!-- .element: class="fragment" -->
+- continuer de soutenir les acteurs institutionnels comme l'OSGeo FR <!-- .element: class="fragment" -->
+- s'appuyer sur QGIS pour parler des autres briques de l'écosystème libre <!-- .element: class="fragment" -->
+
+![Gouvernance association QGIS](https://qgis.org/community/organisation/QGIS-ORG_Organizational_structure.png)
+
+---
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Lancez-vous
+
+- rédiger des tutoriels et actualités
+- nourrir la pompe d'échanges de savoirs avec vos retours d'expérience
+- constituer et diffuser une veille
+- relayer et vulgariser les nouveautés
+
+> sur Geotribu ou ailleurs !
 
 ---
 
