@@ -299,6 +299,8 @@ Notes:
 
 ## QGIS dans les yeux de Geotribu
 
+![QMaro](https://cdn.geotribu.fr/img/articles-blog-rdp/memes/qmaro_fme_like_u_banner.png)
+
 ---
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
@@ -322,7 +324,7 @@ Notes:
 
 ## En synthèse
 
-- du _sidekick_ au protagoniste <!-- .element: class="fragment" -->
+- du _sidekick_ au _protagoniste_ <!-- .element: class="fragment" -->
 - gratuit = forte adoption : certes mais les autres aussi. <!-- .element: class="fragment" -->
 - logiciel hégémonique dans l'écosystème open source : adios gvsig, ciao uDig, slurp SAGA... <!-- .element: class="fragment" -->
 - logiciel "guichet unique" des principales solutions géospatiales : géocodage, GDAL, outils de géométrie, de topo, etc. <!-- .element: class="fragment" -->
@@ -407,7 +409,7 @@ Bien évoqué ce matin par le laboratoire LETG (vous savez le plugin pour le tra
 
 Notes:
 
-car c'est toujours dur de faire des cartes
+- car c'est toujours dur de faire des cartes
 
 ---
 
@@ -433,14 +435,23 @@ Notes:
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
 
-## Rôle de Geotribu là-dedans
+## Rôle de Geotribu là-dedans : la continuité
 
 - continuer de communiquer et animer
-- moins d'articles techniques ? <!-- .element: class="fragment" -->
-- démystifier les dynamiques communautaires sous-jacentes au projet QGIS <!-- .element: class="fragment" -->
-- valoriser les modes de financement  <!-- .element: class="fragment" -->
 - continuer de soutenir les acteurs institutionnels comme l'OSGeo FR <!-- .element: class="fragment" -->
 - s'appuyer sur QGIS pour parler des autres briques de l'écosystème libre <!-- .element: class="fragment" -->
+
+![QGIS 4 Star Wars](https://cdn.geotribu.fr/img/articles-blog-rdp/memes/qgis4_banner.png)
+
+---
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Rôle de Geotribu là-dedans : les changements
+
+- moins d'articles techniques ?
+- démystifier les dynamiques communautaires sous-jacentes au projet QGIS <!-- .element: class="fragment" -->
+- valoriser les modes de financement  <!-- .element: class="fragment" -->
 
 ![Gouvernance association QGIS](https://qgis.org/community/organisation/QGIS-ORG_Organizational_structure.png)
 
