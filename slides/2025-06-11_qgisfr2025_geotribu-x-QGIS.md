@@ -225,9 +225,9 @@ Notes:
 
 ---
 
-## Que peut on en dire du projet QGIS
-
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Que peut on en dire du projet QGIS
 
 - du sidekick au protagoniste ?
 - gratuit = forte adoption : certes mais les autres aussi.
@@ -240,6 +240,32 @@ Notes:
 - mature
 - communication disparate
 - une documentation qui n'a de cesse de s'améliorer cf Harissou et Lova
+
+---
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Modularité et facilité de développement des plugins
+
+- pas besoin d'être un développeur pour démarrer et même aboutir
+- peu de freins à la publication
+- énormément de ressources disponibles
+- 👋 le [tutoriel de Geotribu sur Plugin Builder de mars 2010](https://geotribu.fr/articles/2010/2010-09-23_creer_ses_propres_plugin_qgis/)
+- 💯 le [support complet et à jour de Nicolas Roelandt](https://roelandtn.frama.io/cours_pyqgis/cr%C3%A9er-une-extension-plugin.html)
+
+Notes:
+
+Bien évoqué ce matin par le laboratoire LETG (vous savez le plugin pour le trait de côte)
+
+---
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Modularité et facilité de développement des plugins
+
+> Rappelez-vous : toutes les 5 minutes, une session QGIS est tuée à cause d'un plugin mal développé ⚰️
+
+![Mème QGIS minidumped par le plugin QTribu](https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/meme_qgis_minidumped_qtribu.png)
 
 ---
 
