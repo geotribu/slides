@@ -65,12 +65,13 @@ Une occasion de prendre du recul et d’échanger sur le rôle de la documentati
 
 > micro-quizz
 
-1. un nom de domaine :white_check_mark:
-1. une association ❌ <!-- .element: class="fragment" -->
-1. une SCOP  ❌ <!-- .element: class="fragment" -->
-1. un regroupement spontané de personnes :white_check_mark: <!-- .element: class="fragment" -->
-1. une société écran  ❌ <!-- .element: class="fragment" -->
-1. un media spécialisé :grey_exclamation: <!-- .element: class="fragment" -->
+1. un nom de domaine
+1. une association
+1. une société d'é associationconomie mixte
+1. une SCOP
+1. un regroupement spontané de personnes
+1. une société écran
+1. un media spécialisé :grey_exclamation:
 
 ---
 
@@ -78,12 +79,13 @@ Une occasion de prendre du recul et d’échanger sur le rôle de la documentati
 
 ## Geotribu c'est quoi ?
 
-- un nom de domaine :white_check_mark:
-- une association ❌ <!-- .element: class="fragment" -->
-- une SCOP  ❌ <!-- .element: class="fragment" -->
-- un regroupement spontané de personnes :white_check_mark: <!-- .element: class="fragment" -->
-- une société écran  ❌ <!-- .element: class="fragment" -->
-- un media spécialisé :grey_exclamation: <!-- .element: class="fragment" -->
+1. un nom de domaine :white_check_mark:
+1. une association ❌ <!-- .element: class="fragment" -->
+1. une société d'économie mixte ❌ <!-- .element: class="fragment" -->
+1. une SCOP  ❌ <!-- .element: class="fragment" -->
+1. un regroupement spontané de personnes :white_check_mark: <!-- .element: class="fragment" -->
+1. une société écran  ❌ <!-- .element: class="fragment" -->
+1. un media spécialisé :grey_exclamation: <!-- .element: class="fragment" -->
 
 ---
 
@@ -120,11 +122,13 @@ Notes:
 
 - ⛺ 1 site principal
 - 🪞 1 miroir du site principal au cas où
+- 🇬🇧 1 site anglophone
 - 📚 1 site guide de contribution
 - 🖼️ 1 pseudo-cdn (~4 900 images)
 - 👩‍💻 1 outil en ligne de commandes
 - 🗨️ 1 plugin pour QGIS
 - ~~1 plugin pour ArcGIS~~
+- 📱 1 plugin pour QField
 - 📫 1 newsletter
 - 📢 3 réseaux sociaux
 
@@ -143,6 +147,46 @@ Notes:
 Notes:
 
 - à titre de comparaison, le dépôt principal de QGIS c'est plus de 92 000 commits. Mais bon les nôtres sont des commits conventionnels 😁
+
+---
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Quelques chiffres
+
+> 📊 côté fréquentation
+
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div style="flex: 1; padding-right: 10px;">
+    <ul>
+  <li>Une bien belle année 2024</li>
+  <li>Globalement une dynamique assez stable</li>
+  <li>Un travail sur le référencement et le web sémantique</li>
+  <li>Pas très algos friendly : articles longs, </li>
+  <li>Énormément d'URLs et un historique qui grève les résultats (404, redirections...)</li>
+</ul>
+  </div>
+  <div style="flex: 1;">
+    <img src="https://cdn.geotribu.fr/img/articles-blog-rdp/articles/2025/bilan_2024_voeux_2025/geotribu_referencement_cap_2500_clics_mois_2024-12.webp" alt="Google Search Console Insights - Cap des 2500 clics mensuels" style="max-width: 50%; height: auto;">
+  </div>
+</div>
+
+---
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Quelques chiffres
+
+> ⚽ côté communauté
+
+- 434 commentaires
+- +90 personnes ont déjà contribué au site principal
+- réseaux sociaux : pas mal d'abonnés (+1600 sur LinkedIn, +500 sur Mastodon)
+- 400 abonnés à la newsletter
+
+Notes:
+
+- concernant les RS mais engagement assez inégal voire faible
 
 ---
 
