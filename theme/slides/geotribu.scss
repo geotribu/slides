@@ -1,0 +1,102 @@
+// -------------------------------
+// IMPORTS
+// -------------------------------
+@use "sass:color";
+@import "../template/mixins";
+@import "../template/settings";
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:300,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
+
+// -------------------------------
+// COULEURS ET STYLES DE BASE
+// -------------------------------
+$mainColor: #333;
+$headingColor: #333;
+$backgroundColor: #f7f3de;
+$linkColor: #8b743d;
+$selectionBackgroundColor: rgba(79, 64, 28, 0.99);
+
+$headingTextShadow: none;
+$heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1),
+    0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2),
+    0 5px 10px rgba(0, 0, 0, .25), 0 20px 20px rgba(0, 0, 0, .15);
+
+$overlayElementBgColor: 0, 0, 0;
+$overlayElementFgColor: 240, 240, 240;
+
+// -------------------------------
+// GEOTRIBU OVERRIDES
+// -------------------------------
+$body-bg: #f6f8fa;
+$body-color: #222;
+$link-color: #0078d4;
+$selection-bg: #e5f1fb;
+$presentation-heading-color: #009485;
+
+// -------------------------------
+// MIXINS ET INCLUDES
+// -------------------------------
+@mixin bodyBackground() {
+    @include radial-gradient(rgba(247, 242, 211, 1), rgba(255, 255, 255, 1));
+}
+
+// For dark slides
+@include dark-bg-text-color(#fff);
+
+// -------------------------------
+// THEME TEMPLATE
+// -------------------------------
+@import "../template/theme";
+
+// -------------------------------
+// RÈGLES DE STYLE REVEAL.JS
+// -------------------------------
+.reveal {
+    font-family: 'Ubuntu', Arial, sans-serif;
+
+    h1,
+    h2,
+    h3 {
+        color: $presentation-heading-color;
+    }
+
+    a {
+        color: $link-color;
+    }
+
+    blockquote {
+        background: rgba(44, 44, 44, 0.05);
+    }
+
+    section img {
+        border: none !important;
+    }
+
+    // Logo en surimpression (compatible backgrounds Reveal.js)
+    .slides::after {
+        content: "";
+        position: fixed;
+        bottom: 1rem;
+        left: 1rem;
+        width: 80px;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        background-image: url("https://github.com/geotribu/site-contribuer/blob/main/content/theme/assets/images/geotribu/geotribu_logo_tipi_seul_carre.png?raw=true");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top right;
+        opacity: 0.5;
+        pointer-events: none;
+        z-index: 50;
+    }
+}
+
+// Impression PDF : logo visible aussi
+@media print {
+    .reveal .slides::after {
+        opacity: 1;
+    }
+}

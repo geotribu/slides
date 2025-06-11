@@ -173,3 +173,4 @@ cython_debug/
 # -- Custom --
 *.pdf
 site/
+theme/template/
