@@ -74,4 +74,29 @@ $presentation-heading-color: #009485;
     section img {
         border: none !important;
     }
+
+    // Logo en surimpression (compatible backgrounds Reveal.js)
+    .slides::after {
+        content: "";
+        position: fixed;
+        bottom: 1rem;
+        left: 1rem;
+        width: 80px;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        background-image: url("https://github.com/geotribu/site-contribuer/blob/main/content/theme/assets/images/geotribu/geotribu_logo_tipi_seul_carre.png?raw=true");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top right;
+        opacity: 0.5;
+        pointer-events: none;
+        z-index: 50;
+    }
+}
+
+// Impression PDF : logo visible aussi
+@media print {
+    .reveal .slides::after {
+        opacity: 1;
+    }
 }
