@@ -62,6 +62,8 @@ Au menu :
 
 ## Geotribu
 
+![logo Geotribu](https://cdn.geotribu.fr/img/internal/charte/geotribu_logo_rectangle_384x80.png)
+
 ---
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
