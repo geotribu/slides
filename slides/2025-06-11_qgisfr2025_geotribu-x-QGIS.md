@@ -59,14 +59,31 @@ Une occasion de prendre du recul et d’échanger sur le rôle de la documentati
 
 ---
 
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
 ## Geotribu c'est quoi ?
+
+> micro-quizz
+
+1. un nom de domaine :white_check_mark:
+1. une association ❌ <!-- .element: class="fragment" -->
+1. une SCOP  ❌ <!-- .element: class="fragment" -->
+1. un regroupement spontané de personnes :white_check_mark: <!-- .element: class="fragment" -->
+1. une société écran  ❌ <!-- .element: class="fragment" -->
+1. un media spécialisé :grey_exclamation: <!-- .element: class="fragment" -->
+
+---
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
 
-- une association ? ❌ <!-- .element: class="fragment" -->
-- une SCOP ?  ❌ <!-- .element: class="fragment" -->
-- une société écran ?  ❌ <!-- .element: class="fragment" -->
-- Un regroupement spontané de personnes :white_check_mark:
+## Geotribu c'est quoi ?
+
+- un nom de domaine :white_check_mark:
+- une association ❌ <!-- .element: class="fragment" -->
+- une SCOP  ❌ <!-- .element: class="fragment" -->
+- un regroupement spontané de personnes :white_check_mark: <!-- .element: class="fragment" -->
+- une société écran  ❌ <!-- .element: class="fragment" -->
+- un media spécialisé :grey_exclamation: <!-- .element: class="fragment" -->
 
 ---
 
