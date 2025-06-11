@@ -320,19 +320,18 @@ Notes:
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
 
-## Que peut on en dire du projet QGIS
+## En synthèse
 
-- du sidekick au protagoniste <!-- .element: class="fragment" -->
+- du _sidekick_ au protagoniste <!-- .element: class="fragment" -->
 - gratuit = forte adoption : certes mais les autres aussi. <!-- .element: class="fragment" -->
-- modularité et facilité de développement de plugins (même si rappelez-vous : les plugins tuent encore des sessions QGIS. Soyez prudents sur la route du développement) <!-- .element: class="fragment" -->
 - logiciel hégémonique dans l'écosystème open source : adios gvsig, ciao uDig, slurp SAGA... <!-- .element: class="fragment" -->
 - logiciel "guichet unique" des principales solutions géospatiales : géocodage, GDAL, outils de géométrie, de topo, etc. <!-- .element: class="fragment" -->
+- une documentation et une traduction qui n'ont eu de cesse de s'améliorer <!-- .element: class="fragment" -->
+- mais une communication disparate et très technico centrée <!-- .element: class="fragment" -->
 
 Notes:
 
-- mature
-- communication disparate
-- une documentation qui n'a de cesse de s'améliorer cf Harissou et Lova
+- documentation --> du coup, valeur ajoutée moins évidente pour Geotribu et autres tutoriels : c'est très bien !
 
 ---
 
@@ -352,7 +351,11 @@ Notes:
 
 Notes:
 
-Ok mais au-delà des chiffres qui sont largement biaisés
+Ok mais au-delà des chiffres qui sont largement biaisés, what else ?
+
+- une super évolution depuis Quantum GIS
+- des virages pas toujours bien négociés comme le passage 2 --> 3. Le passage à la 4, ça
+- enfin une vitrine web à la hauteur du projet
 
 ---
 
@@ -397,8 +400,8 @@ Bien évoqué ce matin par le laboratoire LETG (vous savez le plugin pour le tra
 ## Continuer de mûrir : sortir du garage
 
 - assumer son rôle de logiciel leader <!-- .element: class="fragment" -->
-- prendre le temps de consolider les retours des utilisateurs <!-- .element: class="fragment" -->
-- structurer l'évolution projet en s'inspirant d'autres projets d'importance confrontés aux enjeux de l'utilisation à l'échelle industrielle <!-- .element: class="fragment" -->
+- prendre le temps de faciliter, consolider les retours des utilisateurs et de les placer au coeur de la culture du projet <!-- .element: class="fragment" -->
+- s'inspirer d'autres projets d'importance confrontés aux enjeux de l'utilisation à l'échelle industrielle <!-- .element: class="fragment" -->
 
 ---
 
@@ -428,6 +431,14 @@ Bien évoqué ce matin par le laboratoire LETG (vous savez le plugin pour le tra
 - s'appuyer sur QGIS pour parler des autres briques de l'écosystème libre <!-- .element: class="fragment" -->
 
 ![Gouvernance association QGIS](https://qgis.org/community/organisation/QGIS-ORG_Organizational_structure.png)
+
+---
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Challenges à relever et dilemmes à résoudre : l'IA
+
+![IA](https://cdn.masto.host/mapstodonspace/media_attachments/files/114/315/137/511/109/435/original/590330ddd0910be2.png)
 
 ---
 
