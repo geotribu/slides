@@ -4,11 +4,12 @@ from pathlib import Path
 import requests
 
 # URLs des fichiers SCSS Reveal.js à télécharger
+revealjs_version = "5.2.1"
 reveal_scss_files = {
-    "theme/template/exposer.scss": "https://raw.githubusercontent.com/hakimel/reveal.js/refs/tags/5.2.1/css/theme/template/exposer.scss",
-    "theme/template/mixins.scss": "https://raw.githubusercontent.com/hakimel/reveal.js/refs/tags/5.2.1/css/theme/template/mixins.scss",
-    "theme/template/settings.scss": "https://raw.githubusercontent.com/hakimel/reveal.js/refs/tags/5.2.1/css/theme/template/settings.scss",
-    "theme/template/theme.scss": "https://raw.githubusercontent.com/hakimel/reveal.js/refs/tags/5.2.1/css/theme/template/theme.scss",
+    "theme/template/exposer.scss": f"https://raw.githubusercontent.com/hakimel/reveal.js/refs/tags/{revealjs_version}/css/theme/template/exposer.scss",
+    "theme/template/mixins.scss": f"https://raw.githubusercontent.com/hakimel/reveal.js/refs/tags/{revealjs_version}/css/theme/template/mixins.scss",
+    "theme/template/settings.scss": f"https://raw.githubusercontent.com/hakimel/reveal.js/refs/tags/{revealjs_version}/css/theme/template/settings.scss",
+    "theme/template/theme.scss": f"https://raw.githubusercontent.com/hakimel/reveal.js/refs/tags/{revealjs_version}/css/theme/template/theme.scss",
 }
 
 # sources du thème Geotribu
