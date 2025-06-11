@@ -480,10 +480,6 @@ Notes:
 
 ---
 
-<!-- .slide: data-background-video="https://video.osgeo.org/download/videos/generate/39101d03-465e-491c-8894-c5d1254e9b1d?videoFileIds=112228" data-background-video-loop="true" data-background-size="cover" data-background-video-muted="true" -->
-
----
-
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
 
 ## Libre comme l'air du houblon
@@ -508,6 +504,12 @@ Je finirai en vous rappelant qu'à l'instar de nombreux contenus publiés sur Ge
 ## Suivre et soutenir Geotribu
 
 ![Suivre et/ou soutenir Geotribu](https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/geotribu_suivre-soutenir.png)
+
+---
+
+### Questions / réponses
+
+<!-- .slide: data-background-video="https://video.osgeo.org/download/videos/generate/39101d03-465e-491c-8894-c5d1254e9b1d?videoFileIds=112228" data-background-video-loop="true" data-background-size="cover" data-background-video-muted="true" -->
 
 ---
 
