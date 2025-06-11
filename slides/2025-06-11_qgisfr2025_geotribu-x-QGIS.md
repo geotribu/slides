@@ -400,8 +400,14 @@ Bien évoqué ce matin par le laboratoire LETG (vous savez le plugin pour le tra
 ## Continuer de mûrir : sortir du garage
 
 - assumer son rôle de logiciel leader <!-- .element: class="fragment" -->
-- prendre le temps de faciliter, consolider les retours des utilisateurs et de les placer au coeur de la culture du projet <!-- .element: class="fragment" -->
 - s'inspirer d'autres projets d'importance confrontés aux enjeux de l'utilisation à l'échelle industrielle <!-- .element: class="fragment" -->
+- prendre le temps de faciliter, consolider les retours des utilisateurs et de les placer au coeur de la culture du projet <!-- .element: class="fragment" -->
+
+![meme map is hard](https://cdn.masto.host/mapstodonspace/media_attachments/files/114/115/888/904/094/028/original/c35c9011391e9694.png) <!-- .element: class="fragment" -->
+
+Notes:
+
+car c'est toujours dur de faire des cartes
 
 ---
 
