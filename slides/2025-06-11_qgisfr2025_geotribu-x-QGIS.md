@@ -266,6 +266,14 @@ Notes:
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
 
+## QGIS : 23 ans
+
+![QGIS Splash Screens - Crédits : Thomas Gratier](https://raw.githubusercontent.com/webgeodatavore/qgis-splash-screens-birthday/master/qgis-splash-screens-no-text.gif)
+
+---
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
 ## Modularité et facilité de développement des plugins
 
 - pas besoin d'être un développeur pour démarrer et même aboutir
