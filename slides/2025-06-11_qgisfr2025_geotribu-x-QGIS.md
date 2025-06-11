@@ -20,7 +20,8 @@ docker run --name decktape --rm  -v "./:/slides" astefanutti/decktape --pdf-auth
 
 ## Contribuer à la culture de l'écosystème sur QGIS : l'expérience Geotribu
 
-:date: 11 juin 2025 16-30 - 20h  
+:date: 11 juin 2025 16h30 - ~~16h55~~ 20h  
+_(pour les correspondances SNCF, [cliquer ici](https://www.ter.sncf.com/sud-provence-alpes-cote-d-azur/se-deplacer/prochains-departs/avignon-centre-87765008))_  
 🎙️ Julien Moura  
 :billed_cap: Geotribu
 
@@ -53,7 +54,13 @@ Au menu :
 
 1. Geotribu
 1. QGIS dans Geotribu
-1. Qu'en déduire du projet QGIS et de ses perspectives
+1. Perspectives et prospectives pour les deux projets
+
+---
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Geotribu
 
 ---
 
@@ -69,7 +76,7 @@ Au menu :
 1. une SCOP
 1. un regroupement spontané de personnes
 1. une société écran
-1. un media spécialisé :grey_exclamation:
+1. un media spécialisé
 
 ---
 
@@ -99,21 +106,22 @@ Notes:
 - un noyau de quelques personnes seulement
 - une 10aine de satellites +/- réguliers
 - bonne ambiance
-- aucune obligation de résultat ou d'investissement.
+- aucune obligation de résultat ou d'investissement
 
 Notes:
 
-et moi ? je fais office de vieux de la vieille, un peu responsable de publication, support technique et ayatollah du Markdown
+- faire du travail sérieux sans se prendre au sérieux
+- et moi ? je fais office de vieux de la vieille, un peu responsable de publication, support technique et ayatollah du Markdown
 
 ---
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
 
-## Ligne éditoriale
+## :handshake: Valeurs
 
 - côté pile : la technique
 - côté face : le libre
-- une charte déontologique +/- définie : pas d'autopromo, pas de communiqués de presse ou de pseudos tutos copiés/collés de promotion,
+- une charte déontologique +/- définie : pas d'autopromo, pas de communiqués de presse ou de pseudos tutos copiés/collés depuis le blog d'entreprise, pas de contenu généré par IA
 - relecture collaborative
 - qualité > quantité
 - ton libre en théorie mais la visibilité impacte la critique pour ménager les susceptibilités
@@ -126,11 +134,27 @@ Notes:
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
 
-## 🎯 Lignes directrices
+## 🎯 Mission
 
-- occuper l'espace informationnel sur l'e
-- francophone
-- géogeek --> empowerement
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div style="flex: 1; padding-right: 10px;">
+    <ul>
+      <li>francophone</li>
+      <li>occuper l'espace informationnel</li>
+      <li>valoriser</li>
+      <li>géogeek --> "empowerement"</li>
+      <li>structurer une culture du libre dans la géomatique</li>
+      <li>accompagner les professionnel(le)s dans leur veille technologique</li>
+    </ul>
+  </div>
+  <div style="flex: 1;">
+    <img src="https://cdn.geotribu.fr/img/articles-blog-rdp/divers/mission.png" alt="Mission. Crédits : Metalus" style="max-width: 50%; height: auto;">
+  </div>
+</div>
+
+Notes:
+
+Rendre accessibles les évolutions de l’écosystème. En documentant, vulgarisant et analysant l’évolution de QGIS, Geotribu participe à sa diffusion et à l’appropriation des outils par la communauté.  
 
 ---
 
@@ -174,6 +198,14 @@ Notes:
 ### Album photos 2012
 
 ![Geotribu en 2012](https://cdn.geotribu.fr/img/articles-blog-rdp/geotribu/history/web_timemachine_geotribu_2012.png)
+
+----
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+### Album photos 2020
+
+![Geotribu tweet renaissance](https://cdn.geotribu.fr/img/articles-blog-rdp/geotribu/history/geotribu_tweet_renaissance_2020.png)
 
 ----
 
@@ -263,11 +295,7 @@ Notes:
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
 
-## Un exemple parmi d'autres
-
-Notes:
-
-- il y a déjà plein de contenus
+## QGIS dans Geotribu
 
 ---
 
@@ -276,8 +304,8 @@ Notes:
 ## QGIS dans Geotribu
 
 - premier article dédié en novembre 2008 sur le workshop Quantum GIS
-- ~200 contenus directement liés à QGIS
-- environ autant indirectement
+- ~200 contenus directement liés à QGIS dont beaucoup sont des news
+- environ autant où QGIS est secondaire
 
 Notes:
 
@@ -285,6 +313,10 @@ Notes:
   - distinguer ceux portant directement sur QGIS de ceux où il est simplement mentionné (par exemple comme outil de visuaisation)
   - progression sur la périoe 2008 - 2025 : nombre absolu, proportionnel
   - types de contenus : tutoriel, news
+
+---
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
 
 ---
 
@@ -354,7 +386,13 @@ Bien évoqué ce matin par le laboratoire LETG (vous savez le plugin pour le tra
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
 
-## Les publics de QGIS
+## Et maintenant ?
+
+---
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Concilier les publics de QGIS
 
 - les dévs core
 - les dév de plugins
@@ -363,6 +401,15 @@ Bien évoqué ce matin par le laboratoire LETG (vous savez le plugin pour le tra
 - les nouveaux venus
 
 > Le challenge permanent est de les concilier voire de les réconcilier
+
+---
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Rôle de Geotribu là-dedans
+
+- démystifier les dynamiqyes communautaires sous-jacentes au projet QGIS
+- s'appuyer sur QGIS pour parler des autres briques de l'écosystème libre
 
 ---
 
