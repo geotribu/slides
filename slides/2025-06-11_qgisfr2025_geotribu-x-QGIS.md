@@ -3,7 +3,7 @@ author: Julien Moura
 date: 2025-06-11
 language: fr
 tags: Geotribu, QGIS, open source, écosystème, contribution
-title: "Contribuer à l'écosystème FOSS4G : l'exemple de QGIS dans Geotribu"
+title: "Contribuer à la culture de l'écosystème sur QGIS : l'expérience Geotribu"
 type: slide
 revealjs:
   backgroundTransition: fade
@@ -70,9 +70,9 @@ Une occasion de prendre du recul et d’échanger sur le rôle de la documentati
 
 ---
 
-## Geotribu c'est combien ? :moneybag:
-
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Geotribu c'est combien ? :moneybag:
 
 - un coût de **15€**/mois hors extras (besoins ponctuels, goodies, délires) <!-- .element: class="fragment" -->
 - une [cagnotte Tipeee](https://fr.tipeee.com/geotribu) qui a récolté 619€ depuis sa création, principalement abondée par les membres <!-- .element: class="fragment" -->
@@ -87,11 +87,45 @@ Notes:
 
 ---
 
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
 ## historique Geotribu
+
+Notes:
+
+---
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
 
+## Quelques chiffres
+
+> 🌐 interfaces
+
+- ⛺ 1 site principal
+- 🪞 1 miroir du site principal au cas où
+- 📚 1 site guide de contribution
+- 🖼️ 1 pseudo-cdn (~4 900 images)
+- 👩‍💻 1 outil en ligne de commandes
+- 🗨️ 1 plugin pour QGIS
+- ~~1 plugin pour ArcGIS~~
+- 📫 1 newsletter
+- 📢 3 réseaux sociaux
+
+---
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Quelques chiffres
+
+> 🧑‍💻 côté technique
+
+- ~10 de dépôts Git actifs
+- 9 500 commits sur le site principal, environ 13 000 en tout
+- quelques dizaines de forks
+
 Notes:
+
+- à titre de comparaison, le dépôt principal de QGIS c'est plus de 92 000 commits. Mais bon les nôtres sont des commits conventionnels 😁
 
 ---
 
