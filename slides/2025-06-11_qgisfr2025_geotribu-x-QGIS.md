@@ -16,9 +16,9 @@ docker run --name decktape --rm  -v "./:/slides" astefanutti/decktape --pdf-auth
 
 -->
 
-## Contribuer à la culture de l'écosystème sur QGIS : l'expérience Geotribu
-
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_cover_bg.png" data-background-size="cover" -->
+
+## Contribuer à la culture de l'écosystème sur QGIS : l'expérience Geotribu
 
 :date: 11 juin 2025 16-30 - 20h  
 🎙️ Julien Moura  
@@ -47,9 +47,9 @@ Une occasion de prendre du recul et d’échanger sur le rôle de la documentati
 
 ---
 
-## Geotribu c'est qui ?
-
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Geotribu c'est qui ?
 
 - affiliée à aucune entreprise --> 100% temps libre
 - une charte déontologique +/- définie : pas d'autopromo, pas de communiqués de presse ou de pseudos tutos copiés/collés  de promotion,
@@ -190,9 +190,9 @@ Notes:
 
 ---
 
-## Un exemple parmi d'autres
-
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Un exemple parmi d'autres
 
 Notes:
 
@@ -200,9 +200,9 @@ Notes:
 
 ---
 
-## QGIS dans Geotribu
-
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## QGIS dans Geotribu
 
 Notes:
 
@@ -213,9 +213,9 @@ Notes:
 
 ---
 
-## Objectifs
-
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Objectifs
 
 Notes:
 
@@ -269,9 +269,9 @@ Bien évoqué ce matin par le laboratoire LETG (vous savez le plugin pour le tra
 
 ---
 
-## Les publics de QGIS
-
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Les publics de QGIS
 
 - les dévs core
 - les dév de plugins
@@ -294,6 +294,8 @@ Le challenge permanent est de les concilier voire de les réconcilier
 ---
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Libre comme l'air du houblon
 
 Ce support est sous [licence Beerware](https://fr.wikipedia.org/wiki/Beerware) :
 
