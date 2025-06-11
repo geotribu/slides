@@ -49,18 +49,6 @@ Une occasion de prendre du recul et d’échanger sur le rôle de la documentati
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
 
-## Geotribu c'est qui ?
-
-- affiliée à aucune entreprise --> 100% temps libre
-- une charte déontologique +/- définie : pas d'autopromo, pas de communiqués de presse ou de pseudos tutos copiés/collés  de promotion,
-- relecture collaborative
-- bonne ambiance
-- qualité > quantité
-
----
-
-<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
-
 ## Geotribu c'est quoi ?
 
 > micro-quizz
@@ -86,6 +74,39 @@ Une occasion de prendre du recul et d’échanger sur le rôle de la documentati
 1. un regroupement spontané de personnes :white_check_mark: <!-- .element: class="fragment" -->
 1. une société écran  ❌ <!-- .element: class="fragment" -->
 1. un media spécialisé :grey_exclamation: <!-- .element: class="fragment" -->
+
+Notes:
+
+- avec la disparition de medias spécialisés réellement indépendants
+
+---
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Geotribu c'est qui ?
+
+- affiliée à aucune entreprise --> 100% temps libre
+- un noyau de quelques personnes seulement
+- une 10aine de satellites +/- réguliers
+- bonne ambiance
+- aucune obligation de résultat ou d'investissement.
+
+---
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Ligne éditoriale
+
+- côté pile : la technique
+- côté face : le libre
+- une charte déontologique +/- définie : pas d'autopromo, pas de communiqués de presse ou de pseudos tutos copiés/collés de promotion,
+- relecture collaborative
+- qualité > quantité
+- ton libre en théorie mais la visibilité impacte la critique pour ménager les susceptibilités
+
+Notes:
+
+- la ligne éditoriale implique une gestion de ses identités. Par exemple, je n'écris jamais sur mes projet Oslandia. Ça me permet de répondre à des insinuations.
 
 ---
 
