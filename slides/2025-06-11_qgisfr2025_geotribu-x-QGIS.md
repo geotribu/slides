@@ -49,6 +49,16 @@ Une occasion de prendre du recul et d’échanger sur le rôle de la documentati
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
 
+Au menu :
+
+1. Geotribu
+1. QGIS dans Geotribu
+1. Qu'en déduire du projet QGIS et de ses perspectives
+
+---
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
 ## Geotribu c'est quoi ?
 
 > micro-quizz
@@ -91,6 +101,10 @@ Notes:
 - bonne ambiance
 - aucune obligation de résultat ou d'investissement.
 
+Notes:
+
+et moi ? je fais office de vieux de la vieille, un peu responsable de publication, support technique et ayatollah du Markdown
+
 ---
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
@@ -107,6 +121,16 @@ Notes:
 Notes:
 
 - la ligne éditoriale implique une gestion de ses identités. Par exemple, je n'écris jamais sur mes projet Oslandia. Ça me permet de répondre à des insinuations.
+
+---
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## 🎯 Lignes directrices
+
+- occuper l'espace informationnel sur l'e
+- francophone
+- géogeek --> empowerement
 
 ---
 
@@ -129,9 +153,35 @@ Notes:
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
 
-## historique Geotribu
+## Ligne de vie
+
+![Ligne de vie Geotribu](https://cdn.geotribu.fr/img/articles-blog-rdp/geotribu/history/geotribu_frise_chrono_2006-2017.png)
 
 Notes:
+
+----
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+### Album photos 2008
+
+![Geotribu en 2008](https://cdn.geotribu.fr/img/articles-blog-rdp/geotribu/history/web_timemachine_geotribu_2008.png)
+
+----
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+### Album photos 2012
+
+![Geotribu en 2012](https://cdn.geotribu.fr/img/articles-blog-rdp/geotribu/history/web_timemachine_geotribu_2012.png)
+
+----
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+### Album photos 2020
+
+![Geotribu en 2020](https://cdn.geotribu.fr/img/articles-blog-rdp/geotribu/history/geotribu_2020-04-30.png)
 
 ---
 
@@ -225,24 +275,16 @@ Notes:
 
 ## QGIS dans Geotribu
 
+- premier article dédié en novembre 2008 sur le workshop Quantum GIS
+- ~200 contenus directement liés à QGIS
+- environ autant indirectement
+
 Notes:
 
 - chiffres sur les contenus lié à QGIS :
   - distinguer ceux portant directement sur QGIS de ceux où il est simplement mentionné (par exemple comme outil de visuaisation)
   - progression sur la périoe 2008 - 2025 : nombre absolu, proportionnel
   - types de contenus : tutoriel, news
-
----
-
-<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
-
-## Objectifs
-
-Notes:
-
-- occuper l'espace informationnel
-- francophone
-- géogeek --> empowerement
 
 ---
 
@@ -269,6 +311,18 @@ Notes:
 ## QGIS : 23 ans
 
 ![QGIS Splash Screens - Crédits : Thomas Gratier](https://raw.githubusercontent.com/webgeodatavore/qgis-splash-screens-birthday/master/qgis-splash-screens-no-text.gif)
+
+---
+
+<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+
+## Une très belle dynamique
+
+![QGIS - Stats février 2025](https://geoobserver.de/wp-content/uploads/2025/02/2025_02_18_08_01_13_QGIS_Dashboard_Metabase.png)
+
+Notes:
+
+Ok mais au-delà des chiffres qui sont largement biaisés
 
 ---
 
@@ -308,13 +362,7 @@ Bien évoqué ce matin par le laboratoire LETG (vous savez le plugin pour le tra
 - les utilisateurs avancés et réguliers
 - les nouveaux venus
 
-Le challenge permanent est de les concilier voire de les réconcilier
-
----
-
-## Des contenus très techniques
-
-<!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
+> Le challenge permanent est de les concilier voire de les réconcilier
 
 ---
 
