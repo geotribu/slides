@@ -424,12 +424,18 @@ car c'est toujours dur de faire des cartes
 
 > Le challenge est de les concilier voire de les réconcilier
 
+Notes:
+
+- renforcer la communication
+- ajouter de l'animation de l'écosystème
+
 ---
 
 <!-- .slide: data-background-image="https://cdn.geotribu.fr/img/slides/2025/qgisfr_geotribu-x-qgis/osgeo_qgis_rencontres_fr_2025_slide_bg.png" data-background-size="cover" -->
 
 ## Rôle de Geotribu là-dedans
 
+- continuer de communiquer et animer
 - moins d'articles techniques ? <!-- .element: class="fragment" -->
 - démystifier les dynamiques communautaires sous-jacentes au projet QGIS <!-- .element: class="fragment" -->
 - valoriser les modes de financement  <!-- .element: class="fragment" -->
