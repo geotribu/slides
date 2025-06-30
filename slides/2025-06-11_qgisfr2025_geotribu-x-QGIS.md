@@ -72,7 +72,7 @@ Au menu :
 
 1. un nom de domaine
 1. une association
-1. une société d'é associationconomie mixte
+1. une société d'économie mixte
 1. une SCOP
 1. un regroupement spontané de personnes
 1. une société écran
