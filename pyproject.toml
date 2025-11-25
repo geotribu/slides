@@ -7,7 +7,7 @@ authors = [{ name = "Julien Moura", email = "geotribu@gmail.com" }]
 description = "Slides produced by the Geotribu teams, powered by MkSlides"
 maintainers = [{ name = "Julien Moura", email = "geotribu@gmail.com" }]
 dependencies = [
-    "mkslides>=1,<1.1",
+    "mkslides>=1,<2.1",
     "pre-commit>=4.2.0,<5",
     "requests>=2.32.4,<3",
 ]
