@@ -38,8 +38,15 @@ jobs:
     steps:
       - name: Get source code
         uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          fetch-depth: 0
+          node-version: "lts/*"
+
+      - name: Compile SCSS to CSS
+        run: |
+          npx sass theme/slides/geotribu.scss theme/slides/geotribu.css
 
       - name: Set up Python
         uses: actions/setup-python@v6
