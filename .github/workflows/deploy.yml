@@ -46,7 +46,8 @@ jobs:
 
       - name: Compile SCSS to CSS
         run: |
-          npx sass theme/slides/geotribu.scss theme/slides/geotribu.css
+          # in Dart Sass 3, import will be removed in favor of "@use xxx as '*'" syntax. But for nows revealjs does not support it...
+          npx sass theme/slides/geotribu.scss theme/slides/geotribu.css --silence-deprecation import
 
       - name: Set up Python
         uses: actions/setup-python@v6
