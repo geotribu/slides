@@ -75,20 +75,29 @@ $presentation-heading-color: #009485;
         border: none !important;
     }
 
+    // alignement des listes
+    ul,
+    ol {
+        display: block;
+        text-align: left;
+        margin: 0 auto;
+        width: fit-content;
+    }
+
     // Logo en surimpression (compatible backgrounds Reveal.js)
     .slides::after {
         content: "";
         position: fixed;
         bottom: 1rem;
-        left: 1rem;
+        right: 1rem;
         width: 80px;
         height: auto;
         aspect-ratio: 1 / 1;
-        background-image: url("https://github.com/geotribu/site-contribuer/blob/main/content/theme/assets/images/geotribu/geotribu_logo_tipi_seul_carre.png?raw=true");
+        background-image: url("https://cdn.geotribu.fr/img/internal/charte/geotribu_logo_tipi_seul_carre.svg");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: top right;
-        opacity: 0.5;
+        opacity: 0.8;
         pointer-events: none;
         z-index: 50;
     }
