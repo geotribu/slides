@@ -29,8 +29,9 @@ python3 -m venv .venv
 # on Windows, it should be something like this:
 # py -3 -m venv .venv
 . .venv/bin/activate
+# on Windows, it should be something like this:
+# .venv\Scripts\activate
 python -m pip install -U pip
-python -m pip install -U setuptools wheel
 python -m pip install .
 ```
 
