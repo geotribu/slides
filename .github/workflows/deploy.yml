@@ -67,6 +67,9 @@ jobs:
       - name: Build slides
         run: mkslides build slides/ --site-dir build/mkslides/site
 
+      - name: Copy custom theme to site output
+        run: cp -r theme build/mkslides/site/
+
       - name: Setup Pages
         uses: actions/configure-pages@v6
 
