@@ -38,7 +38,8 @@ python -m pip install .
 ### Build
 
 ```sh
-mkslides build slides/
+mkslides build slides/ --site-dir site/
+cp -r theme site/
 ```
 
 The generated website is under `site` subfolder.
