@@ -26,7 +26,24 @@ Guilhem Allaman - <img src="https://cdn.geotribu.fr/img/logos-icones/social/mast
 
 ----
 
-### QChat : how it started
+## Get prepared for the interactive demo !
+
+You can already:
+
+- Open QGIS
+- Install the `QChat` plugin from the manager:
+
+![QChat in the QGIS plugins manager](https://cdn.geotribu.fr/img/articles-blog-rdp/articles/2026/qchat_qod/qchat_qgis_plugins_manager.webp)
+
+_If running QGIS3 on Linux, you might need to install Qt5's websockets package via:_
+
+```sh
+sudo apt install python3-pyqt5.qtwebsockets
+```
+
+----
+
+## QChat : how it started
 
 One day, in July 2024...
 
@@ -34,7 +51,7 @@ One day, in July 2024...
 
 ----
 
-### :iphone: Spontaneous phone call
+## :iphone: Spontaneous phone call
 
 With _GeoJulien_ (Geotribu):
 
@@ -47,7 +64,23 @@ It's useless, so you absolutely need it!
 
 ----
 
-### Let's start with a QGIS plugin
+## Geotribu
+
+- not an association neither a structure
+- technically a domain name & a GitHub organization
+- basically a spontaneous grouping of geoenthusiasts
+
+### Core values
+
+- blogging and watching FOSS4G, in [fr](https://geotribu.fr/) and [en](https://blog.geotribu.net/)
+- sharing what we know
+- have some fun :)
+
+Contribution on [GitHub](https://github.com/geotribu) & Matrix ([fr](https://matrix.to/#/#geotribu-agora:matrix.org) + [en](https://matrix.to/#/#geotribu-agora-en:matrix.org)) open and welcome !
+
+----
+
+## Let's start with an existing QGIS plugin
 
 Initially: chat feature in [the already existing _QTribu_ plugin](https://plugins.qgis.org/plugins/qtribu/):
 
@@ -57,17 +90,17 @@ QTribu: news & blog posts from _Geotribu_ straight into QGIS.
 
 ----
 
-### Then, one year later...
+## Then, one year later...
 
 New QGIS plugin out there: [`QChat`](https://plugins.qgis.org/plugins/qchat/)!
 
 ![QChat on plugins.qgis.org](https://cdn.geotribu.fr/img/articles-blog-rdp/articles/2026/qchat_qod/qchat_qgis_plugin_screenshot.webp)
 
-Currently: [`v1.8.1`](https://plugins.qgis.org/plugins/qchat/version/1.8.1/).
+Currently: [`v1.8.1`](https://plugins.qgis.org/plugins/qchat/version/1.8.1/) from 5 contributors.
 
 ----
 
-### How it was created
+## How it was created
 
 - Boilerplated with [the QGIS plugin templater](https://oslandia.gitlab.io/qgis/template-qgis-plugin/) - _credits to Oslandia_.
 
@@ -77,7 +110,7 @@ Currently: [`v1.8.1`](https://plugins.qgis.org/plugins/qchat/version/1.8.1/).
 
 ----
 
-### QChat: what's that!?
+## QChat: what's that!?
 
 - have some fun in QGIS while chatting with other connected users
 - as devs, have some fun developing this plugin
@@ -86,16 +119,19 @@ Currently: [`v1.8.1`](https://plugins.qgis.org/plugins/qchat/version/1.8.1/).
 
 ----
 
-### QChat: at the beginning
+## QChat: at the beginning
 
 - Study existing open chat protocols: IRC, jabber, matrix...
+
 -> Let's start simple: "Keep it simple" a.k.a. [K.I.S.S.](https://en.wikipedia.org/wiki/KISS_principle) :kissing_heart:
+
 - Open and accessible to anybody
--> You've got QGIS installed ? You can chat now, no need to register on an obscure server out there :)
+
+-> You've got QGIS installed ? You can chat now, no need to register anywhere
 
 ----
 
-### QChat: dev story
+## QChat: dev story
 
 - Initially: PostgreSQL's [`LISTEN`](https://www.postgresql.org/docs/current/sql-listen.html) / [`NOTIFY`](https://www.postgresql.org/docs/current/sql-notify.html) mechanism considered
 - Technical decision: HTTP _websocket_, since [`QtWebSockets`](https://doc.qt.io/qt-6/qtwebsockets-index.html) available in `pyqgis` :thumbsup:
@@ -104,7 +140,7 @@ Currently: [`v1.8.1`](https://plugins.qgis.org/plugins/qchat/version/1.8.1/).
 
 ----
 
-### QChat "features"
+## QChat "features"
 
 :point_up: Live demo a bit later :)
 
@@ -122,7 +158,7 @@ Currently: [`v1.8.1`](https://plugins.qgis.org/plugins/qchat/version/1.8.1/).
 
 ----
 
-### QChat server: `gischat`
+## QChat server: `gischat`
 
 - On GitHub: [`gischat`](https://github.com/geotribu/gischat)
 - Using python and _FastAPI_
@@ -134,16 +170,16 @@ Currently: [`v1.8.1`](https://plugins.qgis.org/plugins/qchat/version/1.8.1/).
 
 ----
 
-### QChat in QField: _QfChat_
+## QChat in QField: _QfChat_
 
 - Developed after the QGIS plugin
 - Based on the QField plugins framework: QML + Javascript
 
-*TODO: Add a screenshot of QChat in QField*
+![Screen of QChat in QField](https://cdn.geotribu.fr/img/articles-blog-rdp/articles/2026/qchat_qod/qchat_in_qfield_screen.webp)
 
 ----
 
-### QChat demo
+## QChat demo
 
 Open your QGIS, let's chat!
 
@@ -151,16 +187,16 @@ Open your QGIS, let's chat!
 
 ----
 
-### QChat: what about now ?
+## QChat: what about now ?
 
 - Some people on QChat, sometimes...
-- We sometimes fix bugs and introduce new features
+- We try to fix bugs and sometimes introduce new features
 - Satisfying server test coverage, that said it's not a huge amount of code lines in `gischat`...
 - Looking forward feedbacks from the users!
 
 ----
 
-### Dev feedback
+## Dev feedback
 
 - Nice to experiment and see how QGIS / Qt are robust, with websockets and so on...
 - Happy to chat and meet sometimes new QGIS people in QChat :)
@@ -171,9 +207,9 @@ Open your QGIS, let's chat!
 
 ----
 
-### What about next ?
+## What about next ?
 
-- Create and implement compatibilities / "bridges" with `matrix` and `telegram`:
+- Create and implement compatibilities / "bridges" with `matrix` and `telegram` :
 
 -> See the QGIS community telegram chat directly within QGIS ?
 
@@ -184,7 +220,7 @@ Open your QGIS, let's chat!
 
 ----
 
-### Thank you for your time and attention!
+## Thank you!
 
 ![A photo of a cow with the Geotribu and QGIS logo](https://cdn.geotribu.fr/img/articles-blog-rdp/articles/2024/qchat/prez/cow.png)
 
