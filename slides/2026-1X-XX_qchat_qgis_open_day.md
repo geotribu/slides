@@ -1,6 +1,6 @@
 ---
 author: Guilhem Allaman
-date: 2026-1X-XX
+date: 2026-11-XX
 language: en
 tags: Geotribu,QChat,QGIS,QField
 title: "QChat: let's chat with your QGIS mates!"
@@ -16,7 +16,7 @@ revealjs:
 
 <img src="https://cdn.geotribu.fr/img/articles-blog-rdp/articles/2024/qchat/prez/cat.png" alt="Une photo de chat avec les logos de Geotribu et QGIS" style="height:250px;">
 
-QGIS Open Day - October 2026 session
+QGIS Open Day - November 2026 session
 
 Guilhem Allaman - <img src="https://cdn.geotribu.fr/img/logos-icones/social/mastodon.png" alt="Logo Mastodon" style="height:40px;vertical-align:middle;"> [@guilhem_allaman@mapstodon.space](https://mapstodon.space/@guilhem_allaman)
 
@@ -135,7 +135,7 @@ Currently: [`v1.8.1`](https://plugins.qgis.org/plugins/qchat/version/1.8.1/) fro
 
 - Initially: PostgreSQL's [`LISTEN`](https://www.postgresql.org/docs/current/sql-listen.html) / [`NOTIFY`](https://www.postgresql.org/docs/current/sql-notify.html) mechanism considered
 - Technical decision: HTTP _websocket_, since [`QtWebSockets`](https://doc.qt.io/qt-6/qtwebsockets-index.html) available in `pyqgis` :thumbsup:
-- Plugin parameters, using teh boilerplate provided by the templater.
+- Plugin parameters, using the boilerplate provided by the templater.
 - `QgsDockWidget` -> parallel to what you're used to do in QGIS.
 
 ----
