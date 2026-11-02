@@ -100,6 +100,15 @@ Currently: [`v1.8.1`](https://plugins.qgis.org/plugins/qchat/version/1.8.1/) fro
 
 ----
 
+## QChat: what's that!?
+
+- have some fun in QGIS while chatting with other connected users
+- as devs, have some fun developing this plugin
+- meet new QGIS users & people, close or far away
+- (maybe) some new useful outcomes ? eg. support, field <-> office communications ? TBD.
+
+----
+
 ## How it was created
 
 - Boilerplated with [the QGIS plugin templater](https://oslandia.gitlab.io/qgis/template-qgis-plugin/) - _credits to Oslandia_.
@@ -107,15 +116,6 @@ Currently: [`v1.8.1`](https://plugins.qgis.org/plugins/qchat/version/1.8.1/) fro
 ![Screen of the QGIS plugin templater doc by Oslandia](https://cdn.geotribu.fr/img/articles-blog-rdp/articles/2026/qchat_qod/qgis_plugin_templated_doc_screenshot.webp)
 
 -> One command, a few prompts and you have a functional QGIS plugin with CICD and integrations.
-
-----
-
-## QChat: what's that!?
-
-- have some fun in QGIS while chatting with other connected users
-- as devs, have some fun developing this plugin
-- meet new QGIS users & people, close or far away
-- (maybe) some new useful outcomes ? eg. support, field <-> office communications ? TBD.
 
 ----
 
